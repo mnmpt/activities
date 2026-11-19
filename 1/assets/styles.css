@@ -1,0 +1,65 @@
+/* css */
+
+body{
+    color: #000;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+
+}
+.container{
+    margin: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 75px;
+    background-color: rgb(230, 121, 139);
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.title{
+    text-transform: uppercase;
+}
+.text-center{
+    text-align: center!important;
+}
+.bio{
+    text-align: justify;
+    font-size: 20px;
+}
+.box{
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn{
+    line-height: 2;
+    font-size: 15px;
+    border: 1px solid black ;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.btn-Facebook{
+    background-color: rgb(24, 24, 172);
+    color: #000;
+}
+.btn-Facebook:hover{
+    background-color: rgb(41, 7, 105);
+    color: #ffffff;
+}
+.btn-Instagram{
+    background-color: pink;
+    color: #000;
+}
+.btn-Tiktok{
+    background-color: #0e0d0d;
+    color: #fff;
+}
